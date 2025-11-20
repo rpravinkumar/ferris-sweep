@@ -82,5 +82,21 @@
                                                             &trans          &trans  		        &trans          &trans
             >;
         };  
+        vsc_layer {
+            bindings = <
+            &trans          &trans          &trans          &trans          &trans 			        &trans          &trans          &trans          &trans          &kp F12
+            &trans          &trans          &trans          &trans          &trans  		        &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans   		        &trans          &trans          &trans          &trans          &trans
+                                                            &trans          &trans  		        &trans          &trans
+            >;
+        };  
+        placeholder_layer {
+            bindings = <
+            &trans          &trans          &trans          &trans          &trans 			        &trans          &trans          &trans          &trans          &kp F12
+            &trans          &trans          &trans          &trans          &trans  		        &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans   		        &trans          &trans          &trans          &trans          &trans
+                                                            &trans          &trans  		        &trans          &trans
+            >;
+        };  
 	};
 };
